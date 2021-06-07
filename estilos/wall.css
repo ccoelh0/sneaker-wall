@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/*Gral*/
+
+.col-12{
+    padding: 0;
+}
+
+body{
+    background-color: #70161e;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulo-h2{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 5px 5px 10px #090c02;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.titulo-h3{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 5px 5px 10px #090c02;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.subrayado{
+    background: rgb(70,22,25);
+    background: linear-gradient(90deg, rgba(70,22,25,1) 20%, rgba(47,10,12,1) 50%, rgba(70,22,25,1) 80%);
+    height:5px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+/*Menu*/
+
+.menu {
+    background-color: #ffffff !important;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.logo {
+    height: 45px;
+    width: 134px;
+    margin-left: 5px;
+}
+
+.btn{
+    border-radius: 0px;
+}
+.btn-outline-success {
+    color: #000000;
+    font-size: bold;
+    background-color: #fff;
+    border-color: #70161e;
+    padding: 0px 35px;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #70161e;
+    border-color: #70161e;
+    padding: 0px 35px;
+}
+
+/*Portada*/
+
+.portada{
+    background-image: url('../img/zapatillas/portadas/shop.jpeg');
+    height: 78vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tituloPrincipal{
+    text-shadow: 5px 5px 10px #090c02;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 5px;
+    /* font-style: oblique; */
+    font-size: 55px;
+    padding: 0px 10px;
+}
+
+.pPrincipal{
+    background: #000000b0;
+    padding: 0px 10px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.form-control{
+    width: 40%;
+}
+
+/*Populares*/
+
+#populares{
+    margin: 40px 0px;
+    padding: 0px 12px;
+}
+
+.popularesImg{
+    width: 50%;
+    margin: 0px 0px;
+    padding: 3px
+}
+
+/*Mas vendidas*/
+
+#mas-vendidas{
+    margin: 40px 0px;
+}
+
+.marcas{
+    color: #000000;
+}
+
+.cartas{
+    padding: 10px;
+    width: 50%; /*luego sacar en las demas vistas*/
+}
+
+.card{
+    border: #550d13;
+    box-shadow: 0px 0px 26px 5px rgb(0 0 0 / 65%);
+}
+
+.card-body{
+    background-color: #550d13;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 5px 5px 10px #090c02;
+}
+
+.marcas div{
+    text-align: center;
+}
+
+/*Encargos*/
+
+#encargar{
+    margin: 40px 0px;
+}
+
+.encargos{
+    display: grid;
+    grid-template-areas:
+    "imagen titulo"
+    "linea parrafo";
+    grid-template-columns: 45% 55%;
+}
+
+.imagen{
+    grid-area: imagen;
+    width: 120px;
+    margin: auto;
+
+}
+
+.img-thumbnail{
+    background-color: #550d13 !important;
+    box-shadow: 0px 0px 15px #090c02;
+    z-index: 2;
+}
+
+.titulo{
+    grid-area: titulo;
+    padding: 10px 10px 10px 20px;
+    margin: auto 0px;
+    text-align: end;
+    text-shadow: 5px 5px 10px #090c02;
+}
+
+.titulo h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.titulo h3{
+    font-size: 20px;
+}
+
+.encargosP{
+    font-style: oblique;
+    margin-bottom: 30px;
+}
+
+.parrafo{
+    grid-area: parrafo;
+    text-align: right;
+    font-style: oblique;
+    padding: 10px;
+}
+
+.linea{
+    grid-area: linea;
+    background: rgb(85,13,19);
+    background: linear-gradient(180deg, rgba(85,13,19,1) 0%, rgba(42,4,8,1) 50%, rgba(85,13,19,1) 100%);
+    height: 100%;
+    width: 5px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    box-shadow: 0px 0px 20px #090c02;
+}
+
+/*Mapa*/
+
+iframe {
+    width: 100%;
+    height: 200px; 
+}
+
+/*Catalogo*/
+
+.catalogo{
+    padding: 30px 10px;
+    text-align: center;
+    background: #000000;
+}
+
+.catalogo h4{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+
+.catalogo label{
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #ffffff;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.catalogo-mail{
+    margin-bottom: .8rem;
+    width: 80%;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #70161e 5%, #1c0404 100%);
+	background-color:#753431;
+	border:1px solid #000000;
+    width: 80%;
+    height: 35px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:13px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #1c0404 5%, #70161e 100%);
+	background-color:#1c0404;
+    color: #fff;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*Contacto*/
+
+.margen-contacto{
+    margin: 30px 10px;
+}
+
+.form div{
+    padding: 7px 10px;
+}
+
+.contacto{
+    width: 95%;
+    height: 28px;
+}
+
+textarea{
+    width: 95%;
+    height: 100px;
+}
+
+iframe{
+    margin: 10px 0px;
+}
+
+/*Nosotros*/
+
+.portada-nosotros{
+    background-image: url('../img/zapatillas/portadas/Nosotros.jpeg');
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.portada--padding{
+    padding: 30px;
+}
+
+.nosotros-titulo{
+    background: #000000b0;
+    padding: 5px;
+}
+
+.nosotros-p{
+    font-style: oblique;
+    background: #000000b0;
+    padding: 5px;
+}
+
+/*Footer*/
+
+.footer-fuente{
+   padding: 20px 10px;
+}
+
+.redes-img{
+    width: 30px;
+    margin: 0px 5px 10px 5px;
+}
+
+.redes-p{
+    margin: 0px;
+    text-shadow: 5px 5px 10px #090c02;
+}
+
+.redes-p a{
+    color: #000000;
+}
