@@ -239,7 +239,7 @@ iframe {
 /*Catalogo*/
 
 .catalogo{
-    padding: 30px 10px;
+    padding: 30px 0px;
     text-align: center;
     background: #000000;
 }
@@ -247,6 +247,7 @@ iframe {
 .catalogo h4{
     text-transform: uppercase;
     color: #ffffff;
+    padding: 0px 5px;
     text-shadow: 1px 1px 2px #ffffff;
 }
 
@@ -289,11 +290,11 @@ iframe {
 /*Contacto*/
 
 .margen-contacto{
-    margin: 30px 10px;
+    margin: 30px 0px;
 }
 
 .form div{
-    padding: 7px 10px;
+    padding: 7px 0px;
 }
 
 .contacto{
@@ -307,14 +308,14 @@ textarea{
 }
 
 iframe{
-    margin: 10px 0px;
+    margin: 30px 0px 10px 0px;
 }
 
 /*Nosotros*/
 
 .portada-nosotros{
     background-image: url('../img/zapatillas/portadas/Nosotros.jpeg');
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
