@@ -1,366 +1,437 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*Gral*/
 
-.col-12{
-    padding: 0;
+.col-12 {
+  padding: 0;
 }
 
-body{
-    background-color: #70161e;
-    color: #ffffff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+  background: rgb(48, 65, 95);
+  background: linear-gradient(
+    162deg,
+    rgba(48, 65, 95, 1) 0%,
+    rgba(13, 26, 47, 1) 100%
+  );
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.titulo-h2{
-    font-family: 'Poppins', sans-serif;
-    text-shadow: 5px 5px 10px #090c02;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 30px;
+.titulo-h2 {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 5px 5px 10px #090c02;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 30px;
 }
 
-.titulo-h3{
-    font-family: 'Poppins', sans-serif;
-    text-shadow: 5px 5px 10px #090c02;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-bottom: 20px;
+.titulo-h3 {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 5px 5px 10px #090c02;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 20px;
 }
 
-.subrayado{
-    background: rgb(70,22,25);
-    background: linear-gradient(90deg, rgba(70,22,25,1) 20%, rgba(47,10,12,1) 50%, rgba(70,22,25,1) 80%);
-    height:5px;
-    width: 100%;
-    margin-bottom: 8px;
+.subrayado {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    323deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(198, 198, 198, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 5px;
+  width: 100%;
+  margin-bottom: 8px;
 }
 
 /*Menu*/
 
 .menu {
-    background-color: #ffffff !important;
-    padding: 10px;
-    width: 100%;
-    position: fixed;
-    z-index: 3;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
 }
 
 .logo {
-    height: 45px;
-    width: 134px;
-    margin-left: 5px;
+  height: 45px;
+  width: 134px;
+  margin-left: 5px;
 }
 
-.btn{
-    border-radius: 0px;
+.btn {
+  border-radius: 0px;
 }
 .btn-outline-success {
-    color: #000000;
-    font-size: bold;
-    background-color: #fff;
-    border-color: #70161e;
-    padding: 0px 35px;
+  color: #000000;
+  font-size: bold;
+  background-color: #fff;
+  border-color: #70161e;
+  padding: 0px 35px;
 }
 
 .btn-outline-success:hover {
-    color: #fff;
-    background-color: #70161e;
-    border-color: #70161e;
-    padding: 0px 35px;
+  color: #fff;
+  background-color: #70161e;
+  border-color: #70161e;
+  padding: 0px 35px;
 }
 
 /*Portada*/
 
-.portada{
-    background-image: url('../img/zapatillas/portadas/portadanueva.jpeg');
-    height: 100vh;
-    width: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.portada {
+  background-image: url("../img/zapatillas/portadas/portada10.jpeg");
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.portada-titulo{
-    text-shadow: 5px 5px 10px #090c02;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    word-spacing: 5px;
-    /* font-style: oblique; */
-    font-size: 55px;
-    padding: 0px 10px;
-    margin-top: 100px;
-}
-  
-.portada-cuadro{
-    background-color: #000000cb;
-    margin-top: 132px;
-    margin-right: 50px;
+.cuadro {
+  background-color: #0000007a;
+  margin-top: 100px;
 }
 
-.portada-p{
-    font-size: 17px;
-    text-align: left;
-    padding: 10px;
-    margin: 0px;
+.portada-titulo {
+  text-shadow: 3px 4px 5px #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 5px;
+  font-size: 45px;
+  padding: 0px 10px;
+  /* margin-top: 100px; */
+  text-align: center;
 }
 
-.form-control{
-    width: 40%;
+.portada-subtitulo {
+  text-shadow: 3px 4px 5px #000;
+  color: #fff;
+  /* text-transform: uppercase; */
+  font-family: "Poppins", sans-serif;
+  word-spacing: 5px;
+  font-size: 25px;
+  padding: 0px 10px;
+  /* margin-top: 90px; */
+  text-align: center;
+}
+
+.boton-inicio {
+  padding: 0px 50px !important;
+}
+
+.portada-cuadro {
+  background-color: #000000cb;
+  margin-top: 132px;
+  margin-right: 50px;
+}
+
+.portada-p {
+  font-size: 17px;
+  text-align: left;
+  padding: 10px;
+  margin: 0px;
+}
+
+.form-control {
+  width: 40%;
 }
 
 /*Populares*/
 
-#populares{
-    margin: 40px 0px;
-    padding: 0px 12px;
+#populares {
+  margin: 40px 0px;
+  padding: 0px 12px;
 }
 
-.popularesImg{
-    width: 50%;
-    margin: 0px 0px;
-    padding: 3px
+.popularesImg {
+  width: 50%;
+  margin: 0px 0px;
+  padding: 3px;
 }
 
 /*Mas vendidas*/
 
-#mas-vendidas{
-    margin: 40px 0px;
+#mas-vendidas {
+  margin: 40px 0px;
 }
 
-.marcas{
-    color: #000000;
+.marcas {
+  color: #000000;
 }
 
-.cartas{
-    padding: 10px;
-    width: 50%; /*luego sacar en las demas vistas*/
+.cartas {
+  padding: 10px;
+  width: 50%; /*luego sacar en las demas vistas*/
 }
 
-.card{
-    border: #550d13;
-    box-shadow: 0px 0px 26px 5px rgb(0 0 0 / 65%);
+.card {
+  border: #000000;
+  box-shadow: 0px 0px 26px 5px rgb(0 0 0 / 65%);
 }
 
-.card-body{
-    background-color: #550d13;
-    color: #fff;
-    padding: 10px 0px;
+.card-body {
+  background-color: #30415f;
+  color: #fff;
+  padding: 10px 0px;
 }
 
-.card-title{
-    font-family: 'Poppins', sans-serif;
-    text-shadow: 5px 5px 10px #090c02;
+.card-title {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 5px 5px 10px #090c02;
 }
 
-.marcas div{
-    text-align: center;
+.marcas div {
+  text-align: center;
 }
 
 /*Encargos*/
 
-#encargar{
-    margin: 40px 0px;
+#encargar {
+  margin: 40px 0px;
 }
 
-.encargos{
-    display: grid;
-    grid-template-areas:
+.encargos {
+  display: grid;
+  grid-template-areas:
     "imagen titulo"
     "linea parrafo";
-    grid-template-columns: 45% 55%;
+  grid-template-columns: 45% 55%;
 }
 
-.encargos-padding{
-    padding: 0px;
+.encargos-padding {
+  padding: 0px;
 }
 
-.imagen{
-    grid-area: imagen;
-    width: 120px;
-    margin: auto;
-
+.imagen {
+  grid-area: imagen;
+  width: 120px;
+  margin: auto;
 }
 
-.img-thumbnail{
-    background-color: #550d13 !important;
-    box-shadow: 0px 0px 15px #090c02;
-    z-index: 2;
+.img-thumbnail {
+  /* background: rgb(142, 147, 109);
+  background: linear-gradient(
+    180deg,
+    rgba(142, 147, 109, 1) 0%,
+    rgb(87, 88, 77) 100%
+  ); */
+  background-color: #30415f;
+  box-shadow: 0px 0px 15px #090c02;
+  z-index: 2;
 }
 
-.titulo{
-    grid-area: titulo;
-    padding: 10px 10px 10px 20px;
-    margin: auto 0px;
-    text-align: end;
-    text-shadow: 5px 5px 10px #090c02;
+.titulo {
+  grid-area: titulo;
+  padding: 10px 10px 10px 20px;
+  margin: auto 0px;
+  text-align: end;
+  text-shadow: 5px 5px 10px #090c02;
 }
 
-.titulo h2{
-    text-transform: uppercase;
-    font-size: 20px;
+.titulo h2 {
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
-.titulo h3{
-    font-size: 20px;
+.titulo h3 {
+  font-size: 20px;
 }
 
-.encargosP{
-    font-style: oblique;
-    margin-bottom: 30px;
+.encargosP {
+  font-style: oblique;
+  margin-bottom: 30px;
 }
 
-.parrafo{
-    grid-area: parrafo;
-    text-align: right;
-    font-style: oblique;
-    padding: 10px;
+.parrafo {
+  grid-area: parrafo;
+  text-align: right;
+  font-style: oblique;
+  padding: 10px;
 }
 
-.linea{
-    grid-area: linea;
-    background: rgb(85,13,19);
-    background: linear-gradient(180deg, rgba(85,13,19,1) 0%, rgba(42,4,8,1) 50%, rgba(85,13,19,1) 100%);
-    height: 100%;
-    width: 5px;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    box-shadow: 0px 0px 20px #090c02;
+.linea {
+  grid-area: linea;
+  background: rgb(48, 65, 95);
+  background: linear-gradient(
+    180deg,
+    rgba(48, 65, 95, 1) 0%,
+    rgba(57, 67, 85, 1) 50%,
+    rgba(48, 65, 95, 1) 100%
+  );
+  height: 100%;
+  width: 5px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  box-shadow: 0px 0px 20px #090c02;
 }
 
 /*Mapa*/
 
 iframe {
-    width: 100%;
-    height: 200px; 
+  width: 100%;
+  height: 200px;
 }
 
 /*Catalogo*/
 
-.catalogo{
-    padding: 30px 0px;
-    text-align: center;
-    background: #000000;
+.catalogo {
+  padding: 30px 0px;
+  text-align: center;
+  background: rgb(142, 147, 109);
+  background: linear-gradient(
+    180deg,
+    rgba(142, 147, 109, 1) 0%,
+    rgba(94, 96, 82, 1) 100%
+  );
 }
 
-.catalogo h4{
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 0px 5px;
-    text-shadow: 1px 1px 2px #ffffff;
+.catalogo h4 {
+  text-transform: uppercase;
+  color: #000;
+  padding: 0px 5px;
+  text-shadow: 1px 1px 2px #000000;
 }
 
-.catalogo label{
-    color: #ffffff;
-    text-shadow: 1px 1px 2px #ffffff;
-    margin-bottom: 1rem;
-    font-size: 20px;
+.catalogo label {
+  color: #000000;
+  text-shadow: 1px 1px 2px #000000;
+  margin-bottom: 1rem;
+  font-size: 20px;
 }
 
-.catalogo-mail{
-    margin-bottom: .8rem;
-    width: 80%;
+.catalogo-mail {
+  margin-bottom: 0.8rem;
+  width: 80%;
 }
 
 .myButton {
-	background:linear-gradient(to bottom, #70161e 5%, #1c0404 100%);
-	background-color:#753431;
-	border:1px solid #000000;
-    width: 80%;
-    height: 35px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:15px;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-.myButton:hover {
-	background:linear-gradient(to bottom, #1c0404 5%, #70161e 100%);
-	background-color:#1c0404;
-    color: #fff;
+  background: rgb(48, 65, 95);
+  background: linear-gradient(
+    162deg,
+    rgba(48, 65, 95, 1) 0%,
+    rgba(13, 26, 47, 1) 100%
+  );
+  border: 1px solid #000000;
+  width: 80%;
+  height: 35px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 /*Contacto*/
 
-.margen-contacto{
-    margin: 30px 0px;
+.margen-contacto {
+  margin: 30px 0px;
 }
 
-.form div{
-    padding: 7px 0px;
+.form div {
+  padding: 7px 0px;
 }
 
-.contacto{
-    width: 95%;
-    height: 28px;
+.contacto {
+  width: 95%;
+  height: 28px;
 }
 
-textarea{
-    width: 95%;
-    height: 100px;
+.contacto-boton {
+  background-color: #0a2e52;
+  border: 1px solid #000000;
+  width: 80%;
+  height: 35px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  text-shadow: 1px 1px 2px #000000;
 }
 
-iframe{
-    margin: 30px 0px 10px 0px;
+.contacto-boton:active {
+  position: relative;
+  top: 1px;
+}
+
+textarea {
+  width: 95%;
+  height: 100px;
+}
+
+iframe {
+  margin: 30px 0px 10px 0px;
 }
 
 /*Nosotros*/
 
-.portada-nosotros{
-    background-image: url('../img/zapatillas/portadas/Nosotros.jpeg');
-    height: 350px;
-    width: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+.portada-nosotros {
+  background-image: url("../img/zapatillas/portadas/pared.jpeg");
+  height: 350px;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 
-.portada--padding{
-    padding: 30px;
+.portada--padding {
+  padding: 30px;
 }
 
-.nosotros-titulo{
-    background: #000000b0;
-    padding: 5px;
+.nosotros-titulo {
+  background: #000000b0;
+  padding: 5px;
 }
 
-.nosotros-p{
-    font-style: oblique;
-    background: #000000b0;
-    padding: 5px;
+.nosotros-p {
+  font-style: oblique;
+  background: #000000b0;
+  padding: 5px;
 }
 
 /*Footer*/
 
-.footer-fuente{
-   padding: 20px 10px;
+/* .footer-color {
+  background: rgb(142, 147, 109);
+  background: linear-gradient(
+    180deg,
+    rgba(142, 147, 109, 1) 0%,
+    rgba(94, 96, 82, 1) 100%
+  );
+} */
+
+.footer-fuente {
+  padding: 20px 10px;
 }
 
-.redes-img{
-    width: 30px;
-    margin: 0px 5px 10px 5px;
+.redes-img {
+  width: 30px;
+  margin: 0px 5px 10px 5px;
 }
 
-.redes-p{
-    margin: 0px;
-    text-shadow: 5px 5px 10px #090c02;
+.redes-p {
+  margin: 0px;
+  text-shadow: 5px 5px 10px #090c02;
 }
 
-.redes-p a{
-    color: #000000;
+.redes-p a {
+  color: #000000;
 }
